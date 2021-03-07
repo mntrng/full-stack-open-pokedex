@@ -33,3 +33,5 @@ jobs:
           heroku_api_key: ${{secrets.API_TOKEN}}
           heroku_app_name: 'pokedexcicd'
           heroku_email: 'nhat.2.nguyen@aalto.fi'
+          healthcheck: "https://pokedexcicd.herokuapp.com/health"
+          checkstring: "ok"
