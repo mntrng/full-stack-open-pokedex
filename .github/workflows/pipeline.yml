@@ -35,3 +35,4 @@ jobs:
           heroku_email: 'nhat.2.nguyen@aalto.fi'
           healthcheck: "https://pokedexcicd.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
